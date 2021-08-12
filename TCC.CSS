@@ -1,0 +1,99 @@
+#logo{
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    margin-left: 20px;
+    top: 20px;
+}
+
+#text1{
+    margin-left: 130px;
+    margin-top: 190px;
+    position: absolute;
+    width: 500px;
+    height: 100px;
+    font-family: fantasy;
+    font-size: 50px;
+    line-height: 90px;
+    color: #FF6060;
+
+
+}
+
+#yellow{
+    position: absolute;
+    width: 45px;
+    height: 300px;
+    left: 50px;
+    margin-top: 200px;
+    background: #F9D189;
+}
+
+#dolls{
+    position: absolute;
+    width: 260px;
+    height: 400px;
+    left: 900px;
+    top: 100px;
+}
+
+
+
+#button1{
+    position: fixed;
+    margin-left: 170px;
+    margin-top: 40px;
+    height: 25px; 
+    width: 70px;
+    border: hidden;
+    background-color: white;
+}
+
+#mvbutton{
+    height: 20px;
+    width: 60px;
+}
+
+#button2{
+    position: fixed;
+    margin-left: 300px;
+    margin-top: 40px;
+    height: 27px;
+    width: 140px;
+    border: hidden;
+    background-color: white;
+}
+
+#gallerybutton{
+    height: 22px;
+    width: 140px;
+}
+
+#button3{
+    position: fixed;
+    margin-left: 500px;
+    margin-top: 42px;
+    height: 27px;
+    width: 140px;
+    border: hidden;
+    background-color: white;
+}
+
+#teambutton{
+    height: 27px;
+    width: 130px;
+}
+
+#button4{
+    position: fixed;
+    margin-left: 690px;
+    margin-top: 42px;
+    height: 27px;
+    width: 140px;
+    border: hidden;
+    background-color: white;
+}
+#contactbutton{
+    height: 20px;
+    width: 160px;
+}

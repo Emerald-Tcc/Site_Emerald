@@ -12,7 +12,7 @@
     position: absolute;
     width: 100vh;
     height: 100vh;
-    font-size: 5em;
+    font-size: 3em;
     line-height: 90px;
     color: #FF6060;
     font-family: 'Holtwood One SC', serif;
@@ -84,4 +84,14 @@
     background-color: white;
     font-family: 'Holtwood One SC', serif;
     font-size: 150%;
+}
+
+#text2{
+    position: absolute;
+    font-size: 50px;
+    font-family: 'Holtwood One SC', serif;
+    margin-left: 410px;
+    margin-top: 580px;
+    color: #FF6060;
+
 }

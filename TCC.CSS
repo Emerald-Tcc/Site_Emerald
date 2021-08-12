@@ -10,13 +10,12 @@
     margin-left: 130px;
     margin-top: 190px;
     position: absolute;
-    width: 500px;
-    height: 100px;
-    font-family: fantasy;
-    font-size: 50px;
+    width: 100vh;
+    height: 100vh;
+    font-size: 5em;
     line-height: 90px;
     color: #FF6060;
-
+    font-family: 'Holtwood One SC', serif;
 
 }
 
@@ -40,60 +39,49 @@
 
 
 #button1{
-    position: fixed;
+    position: absolute;
     margin-left: 170px;
     margin-top: 40px;
     height: 25px; 
     width: 70px;
     border: hidden;
     background-color: white;
-}
-
-#mvbutton{
-    height: 20px;
-    width: 60px;
+    font-family: 'Holtwood One SC', serif;
+    font-size: 150%;
 }
 
 #button2{
-    position: fixed;
+    position: absolute;
     margin-left: 300px;
     margin-top: 40px;
     height: 27px;
     width: 140px;
     border: hidden;
     background-color: white;
-}
-
-#gallerybutton{
-    height: 22px;
-    width: 140px;
+    font-family: 'Holtwood One SC', serif;
+    font-size: 150%;
 }
 
 #button3{
-    position: fixed;
+    position: absolute;
     margin-left: 500px;
     margin-top: 42px;
     height: 27px;
     width: 140px;
     border: hidden;
     background-color: white;
-}
-
-#teambutton{
-    height: 27px;
-    width: 130px;
+    font-family: 'Holtwood One SC', serif;
+    font-size: 150%;
 }
 
 #button4{
-    position: fixed;
+    position: absolute;
     margin-left: 690px;
     margin-top: 42px;
     height: 27px;
     width: 140px;
     border: hidden;
     background-color: white;
-}
-#contactbutton{
-    height: 20px;
-    width: 160px;
+    font-family: 'Holtwood One SC', serif;
+    font-size: 150%;
 }

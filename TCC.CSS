@@ -1,97 +1,73 @@
-#logo{
-    position: absolute;
-    width: 85px;
-    height: 85px;
-    margin-left: 20px;
-    top: 20px;
+html, body  {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-size: 62.5%;
 }
 
-#text1{
-    margin-left: 130px;
-    margin-top: 190px;
-    position: absolute;
-    width: 100vh;
-    height: 100vh;
-    font-size: 3em;
-    line-height: 90px;
+header{
+     background-color: rgb(255, 255, 255); 
+}
+
+header .container{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    max-width: 980px;
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+}
+
+.imglogo{
+    height: 15vh;   
+    width: 15vh;
+    margin-right: vh;
+}
+
+button{
+    font-size: 3vh;
+    font-family: 'Holtwood One SC', serif;
+    border: hidden;
+    background-color: white;
+    margin-right: 8vw;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    width: 90%;
+    max-width: 1100px;
+    /*background: pink;*/
+    margin-top: 10vh;
+}
+
+.yellow{
+    width: 8vh;
+    height: 50vh;
+    background-color: #F9D189;
+    margin-right: 10vh;
+}
+
+.imgdolls{
+    width: 42vh;
+    height: 60vh;
+    margin-left: 10vh;
+}
+
+.text1{
+    font-size: 3rem;
+    line-height: 6rem;
     color: #FF6060;
     font-family: 'Holtwood One SC', serif;
-
 }
 
-#yellow{
-    position: absolute;
-    width: 45px;
-    height: 300px;
-    left: 50px;
-    margin-top: 200px;
-    background: #F9D189;
-}
-
-#dolls{
-    position: absolute;
-    width: 260px;
-    height: 400px;
-    left: 900px;
-    top: 100px;
-}
-
-
-
-#button1{
-    position: absolute;
-    margin-left: 170px;
-    margin-top: 40px;
-    height: 25px; 
-    width: 70px;
-    border: hidden;
-    background-color: white;
+.text2{
+    
+    font-size: 3rem;
     font-family: 'Holtwood One SC', serif;
-    font-size: 150%;
-}
-
-#button2{
-    position: absolute;
-    margin-left: 300px;
-    margin-top: 40px;
-    height: 27px;
-    width: 140px;
-    border: hidden;
-    background-color: white;
-    font-family: 'Holtwood One SC', serif;
-    font-size: 150%;
-}
-
-#button3{
-    position: absolute;
-    margin-left: 500px;
-    margin-top: 42px;
-    height: 27px;
-    width: 140px;
-    border: hidden;
-    background-color: white;
-    font-family: 'Holtwood One SC', serif;
-    font-size: 150%;
-}
-
-#button4{
-    position: absolute;
-    margin-left: 690px;
-    margin-top: 42px;
-    height: 27px;
-    width: 140px;
-    border: hidden;
-    background-color: white;
-    font-family: 'Holtwood One SC', serif;
-    font-size: 150%;
-}
-
-#text2{
-    position: absolute;
-    font-size: 50px;
-    font-family: 'Holtwood One SC', serif;
-    margin-left: 410px;
-    margin-top: 580px;
     color: #FF6060;
 
 }

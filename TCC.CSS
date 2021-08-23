@@ -7,6 +7,7 @@ html, body  {
 
 header{
      background-color: rgb(255, 168, 168);
+     border: solid 1px;
 }
 
 header .container{ 
@@ -30,8 +31,26 @@ button{
     font-family: 'Holtwood One SC', serif;
     border: hidden;
     background-color: rgb(255, 168, 168);
-    margin-right: 8vw;
 }
+
+.button button{
+    padding: 2vw;
+}
+
+.button{
+    margin-right: 40vw;
+}
+
+#fdp img{
+    height: 5vh;
+    margin-right: 2vw;
+}
+
+#fdp{
+    margin-top: 1vh;
+    margin-left: -35vw;
+}
+
 
 section{
     display: flex;
@@ -77,7 +96,7 @@ section{
 }
 
    
-    }
+    
     @media (max-width: 760px){
         html{
             font-size: 50%;

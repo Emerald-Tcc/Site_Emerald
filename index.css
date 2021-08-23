@@ -12,15 +12,15 @@ header{
 
 header .cabecalho{
     display: flex;
-    
-    
-    
-    
+    align-items: center;
+    justify-content: space-between;
+    max-width: 980px;
+    margin: auto;
 }
+
 .logo{
     height: 15vh;   
     width: 15vh;
-    
 }
 
 header .cabecalho .button-header button{
@@ -31,18 +31,20 @@ header .cabecalho .button-header button{
     
 }
 
-
-header .cabecalho .logos-header{
-    
-}
-header .cabecalho .logos-header button{
+button{
     border: hidden;
     background-color: rgb(255, 168, 168);
 }
-header .cabecalho .logos-header button img{
-    height: 30px;
-    
-    
-    
-    
+img{
+    height: 6vh;
+}
+
+.x{
+    margin-right: 20vw;
+   
+}
+
+.y {
+    margin-top: -6vh;
+    margin-left: 36vw;
 }

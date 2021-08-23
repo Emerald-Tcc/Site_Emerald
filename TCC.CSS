@@ -14,7 +14,7 @@ header .container{
     justify-content: space-between;
     align-items: center;
     margin: auto;
-    max-width: 980px;
+    max-width: 2600px;
     width: 90%;
     flex-wrap: wrap;
 }
@@ -39,7 +39,7 @@ section{
     margin: auto;
     align-items: center;
     width: 90%;
-    max-width: 1100px;
+    max-width: 2600px;
     /*background: pink;*/
     margin-top: 10vh;
 }
@@ -76,36 +76,80 @@ section{
 
 }
 
-@media (max-width: 760px){
-    html{
-        font-size: 50%;
+   
     }
-}
+    @media (max-width: 760px){
+        html{
+            font-size: 50%;
+        }
+    }
+ 
+    @media (max-width: 823px){
+        section{
+            flex-direction: column;
+            text-align: center;
+        }
+        .yellow{
+            margin-left: -88vw;
+            text-align: center;
+            height: 30vh;
+            width: 3vw;
+        }
+        .text1{
+            margin-left: 1vw;
+            margin-top: -28vh ;
+            text-align: center;
+        }
+        .imgdolls{
+            margin-top: -6vh;
+            height: 50vh;
+            width: 25vw;
+        }
+    }
 
-@media (max-width: 823px){
-    section{
-        flex-direction: column;
-        text-align: center;
-    }
-    .yellow{
-        margin-right: 70vw;
-        text-align: center;
-        height: 55vh;
-    }
-    .text1{
-        margin-left: 19vw;
-        margin-top: -55vh ;
-        text-align: center;
-    }
-    .imgdolls{
-        margin-top: -6vh;
-        height: 50vh;
-        width: 35vw;
-    }
-}
+    @media (max-width: 730px){
+        .yellow{
+            margin-left: -88vw;
+            text-align: center;
+            height: 30vh;
+        }
+        .text1{
+            margin-left: 4vw;
+        }
+        .imgdolls{
+            width: 32vw;
+        }
 
-@media (max-width: 705px){
-    .imgdolls{
-        width: 40vw;
     }
-}
+
+    @media (max-width: 580px){
+        .imgdolls{
+            width: 35vw;
+        }
+    }
+
+    @media (max-width: 540px){
+        .imgdolls{
+            width: 41vw;
+        }
+    }
+    @media (max-width: 490px){
+        .text1{
+            margin-left: 8vw;
+        }
+    }
+
+    @media (max-width: 450px){
+        .imgdolls{
+            width: 50vw;
+        }
+        .yellow{
+            text-align: center;
+            height: 35vh;
+            width: 4vw;
+        }
+        .text1{
+            margin-top: -38vh;
+            margin-left: 8vw;
+        }
+    }

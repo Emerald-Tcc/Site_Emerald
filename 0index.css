@@ -14,32 +14,36 @@ header .cabecalho{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 980px;
-    margin: auto;
+    
+}
+header .cabecalho button {
+    border: hidden;
+    background-color: rgb(255, 168, 168);
 }
 
 .logo{
     height: 15vh;   
     width: 15vh;
-}
-
-header .cabecalho .button-header button{
-    font-size: 3vh;
-    font-family: 'Holtwood One SC', serif;
-    border: hidden;
-    background-color: rgb(255, 168, 168);
+    margin-left: 2vh;
     
 }
 
-button{
+header .cabecalho .button-header button{
+    font-size: 3.5vh;
+    font-family: 'Holtwood One SC', serif;
     border: hidden;
     background-color: rgb(255, 168, 168);
-}
-img{
-    height: 6vh;
+    padding-left: 75px;
+        
 }
 
-.x{
+header .cabecalho .icons-header img{
+    height: 6vh;
+    margin-right: 2vh;
+}
+
+
+/* .x{
     margin-right: 20vw;
    
 }
@@ -47,4 +51,4 @@ img{
 .y {
     margin-top: -6vh;
     margin-left: 36vw;
-}
+} */

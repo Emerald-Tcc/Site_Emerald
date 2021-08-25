@@ -1,0 +1,120 @@
+header{
+    background-color: rgb(255, 168, 168);
+}
+
+header .container{ 
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: auto;
+   max-width: 2600px;
+   width: 90%;
+}
+
+.imglogo{
+    height: 15vh;   
+    width: 15vh;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button{
+    font-size: 3vh;
+    font-family: 'Holtwood One SC', serif;
+    border: hidden;
+    background-color: rgb(255, 168, 168);
+}
+
+.button button{
+    padding: 2vw;
+}
+
+.button{
+    margin-right: 40vw;
+    margin-left: 3vw;
+}
+
+.icons img{
+    height: 5vh;
+    margin-right: 2vw;
+}
+
+.icons{
+    margin-top: 1vh;
+    margin-left: -35vw;
+    display: flex;
+}
+
+@media (max-width: 795px){
+    nav{
+        display: none;
+    }
+
+    .one,
+    .two,
+    .three {
+        background-color: #fff;
+        height: 5px;
+        width: 100%;
+        margin: 6px auto;
+
+        transition-duration: 0.9s;
+    }
+    .menu-toggle{
+        width: 40px;
+        height: 30px;
+        
+    }
+    .menu-section.on{
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        width: 100vw;
+        height: 100vh;
+
+
+        background-color: rgb(255, 168, 168);
+
+        z-index: 10;
+    }
+    
+    .menu-section.on nav{
+        display: flex;
+        flex-direction: column;
+        margin-left: 40vw;
+        font-size: 8rem;
+    }
+
+    .menu-section.on .menu-toggle{
+        position: absolute;
+        right: 24px;
+        top: 25px;
+    }
+
+    .menu-section.on .menu-toggle .one{
+        transform: rotate(45deg) translate(7px, 7px);
+    }
+
+    .menu-section.on .menu-toggle .two{
+        opacity: 0;
+    }
+    .menu-section.on .menu-toggle .three{
+        transform:rotate(-45deg) translate(8px, -9px);
+    }
+
+
+
+
+
+    nav, button{
+        background-color: rgb(255, 168, 168);
+    }
+    nav #button1{
+        margin-left: 23px;
+    }
+}

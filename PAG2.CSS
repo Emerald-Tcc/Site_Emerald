@@ -1,0 +1,58 @@
+.pag2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(245, 189, 189);
+}
+
+.a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.text2{
+    font-size: 3rem;
+    font-family: 'Holtwood One SC', serif;
+    color: #FF6060;
+}
+
+.text3{
+    text-align:center;
+    margin-top: 1vh;
+    font-size: 2rem;
+    line-height: 6vh;
+}
+
+.text_3{
+    width: 60vw;
+}
+
+.logo2{
+    height: 80%; 
+    width: 20vw;
+}
+
+.divlog2{
+    margin-left: 10vw;
+}
+
+.align{
+    display: flex;  
+    align-items: center;
+    justify-content:end
+}
+
+@media (max-width: 795px){
+    .align{
+        flex-direction: column;
+    }
+    .divlog2{
+        margin-left: 0px;
+    }
+    .logo2{
+        width: 30%;
+    }
+}

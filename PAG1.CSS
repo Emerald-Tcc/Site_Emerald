@@ -11,7 +11,6 @@ html, body  {
     margin: 10vh auto;
     align-items: center;
     width: 90%;
-    max-width: 2600px;
 }
 
 .yellow{
@@ -76,8 +75,6 @@ html, body  {
         }
         .imgdolls{
             margin-top: -6vh;
-            height: 50vh;
-            width: 25vw;
         }
     }
 
@@ -97,23 +94,11 @@ html, body  {
             margin-left: 4vw;
         }
         .imgdolls{
-            width: 27vw;
+            width: 80%;
         }
 
     }
 
-@media (max-width: 580px){
-        .imgdolls{
-            width: 35vw;
-        }
-    }
-
-@media (max-width: 540px){
-        .imgdolls{
-            width: 41vw;
-        }
-    }
-    
 @media (max-width: 490px){
         .text1{
             margin-left: 8vw;
@@ -121,9 +106,6 @@ html, body  {
     }
 
 @media (max-width: 450px){
-        .imgdolls{
-            width: 42vw;
-        }
         .yellow{
             text-align: center;
             height: 35vh;
@@ -140,9 +122,6 @@ html, body  {
     }
     
 @media (max-width: 385px){
-        .imgdolls{
-            width: 55vw;
-        }
         .text1{
             margin-top: -32vh;
             margin-bottom: 10vh;

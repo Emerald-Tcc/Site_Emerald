@@ -5,15 +5,12 @@ html, body  {
     font-size: 62.5%;
 }
 
-section{
+.pag1{
     display: flex;
     justify-content: space-between;
-    margin: auto;
+    margin: 10vh auto;
     align-items: center;
     width: 90%;
-    max-width: 2600px;
-    /*background: pink;*/
-    margin-top: 10vh;
 }
 
 .yellow{
@@ -40,13 +37,7 @@ section{
     font-family: 'Holtwood One SC', serif;
 }
 
-.text2{
-    
-    font-size: 3rem;
-    font-family: 'Holtwood One SC', serif;
-    color: #FF6060;
 
-}
 
 @media (max-width: 3000px){
         html{
@@ -84,8 +75,6 @@ section{
         }
         .imgdolls{
             margin-top: -6vh;
-            height: 50vh;
-            width: 25vw;
         }
     }
 
@@ -105,23 +94,11 @@ section{
             margin-left: 4vw;
         }
         .imgdolls{
-            width: 27vw;
+            width: 80%;
         }
 
     }
 
-@media (max-width: 580px){
-        .imgdolls{
-            width: 35vw;
-        }
-    }
-
-@media (max-width: 540px){
-        .imgdolls{
-            width: 41vw;
-        }
-    }
-    
 @media (max-width: 490px){
         .text1{
             margin-left: 8vw;
@@ -129,9 +106,6 @@ section{
     }
 
 @media (max-width: 450px){
-        .imgdolls{
-            width: 42vw;
-        }
         .yellow{
             text-align: center;
             height: 35vh;
@@ -148,9 +122,6 @@ section{
     }
     
 @media (max-width: 385px){
-        .imgdolls{
-            width: 55vw;
-        }
         .text1{
             margin-top: -32vh;
             margin-bottom: 10vh;

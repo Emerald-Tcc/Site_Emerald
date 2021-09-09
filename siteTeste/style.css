@@ -50,6 +50,24 @@ nav ul li a{
     color: #000000;
 }
 
+.quemsomos{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+
+.quemsomos img{
+    width: 30%;
+    padding-right: 15px;
+}
+
+.quemsomos p{
+    color: #FF6060;
+    font-size: 175%;
+    padding-left: 15px;
+}
 
 
 @media screen and (min-width: 768px) {
@@ -64,5 +82,12 @@ nav ul li a{
         flex-direction: row;
         width: 70%;
     }
-    
+    .quemsomos img{
+        width: 25%;
+       
+    }
+
+    .quemsomos p{
+        font-size: 275%;
+    }
 }

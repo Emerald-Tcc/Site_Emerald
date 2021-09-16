@@ -78,6 +78,8 @@
     }
     .divlog2{
         margin-left: 0px;
+        display: flex;
+        justify-content: center;
     }
     .logo2{
         width: 30%;
@@ -85,7 +87,10 @@
     .words{
         margin-top: 0vh;
     }
-}
+    .text2_1{
+        justify-content: center;
+    }
+}   
 
 @media(max-width: 480px){
     .words{

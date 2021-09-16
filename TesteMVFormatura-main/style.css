@@ -11,16 +11,15 @@ header{
 
 header .container{
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     margin: auto;
-    max-width: 2600px;
     width: 90%;
 }
 
 .logo{
-    height:8em;
-    width:8em;
+    height: 8rem;
+    width: 8rem;
 }
 
 nav{
@@ -31,9 +30,9 @@ nav{
 nav ul{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    line-height: 1px;
+    line-height: 30px;
     list-style: none;
+    
 }
 
 nav ul li a{
@@ -42,9 +41,9 @@ nav ul li a{
     color: #000000;
 }
 
-.icones img{
-    height: 30px;
-    width: 30px;
+nav ul li a img{
+    width: 2rem;
+    height: 2rem;
 }
 
 .escolha{
@@ -96,28 +95,31 @@ nav ul li a{
 
 
 
-@media screen and (min-width: 950px) {
+@media screen and (min-width: 850px) {
 
-    menu-section{
-        display: none;
+    .container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
     }
 
     nav{
         display: flex;
-        flex-direction: row;
         justify-content: space-between;
+        align-items: center;
     }
 
     nav ul{
         flex-direction: row;
         width: 70%;
     }
-    .palavras{
-        margin: 1rem;
+    nav li{
+        letter-spacing: 1px;
+        margin-left: 2rem;
     }
+
     .escolha img{
         width: 25%;
-       
     }
 
     .escolha p{
@@ -128,9 +130,7 @@ nav ul li a{
         height: 35vh;
     }
 
-
     .quemsomos h1{
-
         font-size: 3.2rem;
     }
 
@@ -143,8 +143,15 @@ nav ul li a{
     .conteudoquemsomos img{
         height:20em;
         width:20em;
-    
     }
+}
 
-    
+@media(max-width: 1040px){
+    nav ul li a{
+        font-size: 1rem;
+    }
+    nav li{
+        letter-spacing: 0;
+        margin-left: 26px;
+    }
 }

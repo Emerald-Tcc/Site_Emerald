@@ -8,6 +8,10 @@ menuToggle.addEventListener('click', () => {
     show = !show;
 })
 
+
+
 function mv(){
+    menuSection.classList.remove('on')
+    show = !show;
     window.location='#pag2';
 }

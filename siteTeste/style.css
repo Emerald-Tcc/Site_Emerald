@@ -191,10 +191,9 @@ nav ul li a{
     font-family: 'Roboto', sans-serif;
   
 }
-.oquenosoferecemos a{
-    position: relative;
-    top: 40%;
-    left: 40%;
+.botaoentreemcontato{
+    display: flex;
+    justify-content: center;
 }
 .entreemcontato {
     -webkit-border-radius: 7px;
@@ -204,19 +203,29 @@ nav ul li a{
     font-family: Tahoma;
     font-size: 1rem;
     font-weight: 100;
-    padding: 1.5rem;
+    padding: 10px 20px;
     background-color: #FF0000;
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
     text-align: center;
-    width:10%;
-    height:5%;
     
 
  }
  
- 
+ .entreemcontato:hover {
+    border: solid #CB2E2E 0;
+    background: #FF0000;
+    background-image: -webkit-linear-gradient(top, #FF0000, #CB2E2E);
+    background-image: -moz-linear-gradient(top, #FF0000, #CB2E2E);
+    background-image: -ms-linear-gradient(top, #FF0000, #CB2E2E);
+    background-image: -o-linear-gradient(top, #FF0000, #CB2E2E);
+    background-image: -webkit-gradient(to bottom, #FF0000, #CB2E2E);
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    text-decoration: none;
+ }
 
 @media screen and (min-width: 769px) {
 

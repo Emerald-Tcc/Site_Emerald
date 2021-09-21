@@ -37,9 +37,16 @@ c.addEventListener('mouseover', function(){
     var duração = 700
     
     for(var i = min; i <= max; i++){
-        setTimeout(function(nr){
+        setTimeout(function(nr){    
             numero.innerHTML = nr;
         }, i * 700 / max, i);
     }
 
 })
+
+function mv(){
+    // /menuSection.classList.remove('on')
+    // show = !show;/
+    window.location="#quemsomos";
+    console.log('aoba')
+}

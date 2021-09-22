@@ -202,7 +202,7 @@ nav ul li a{
     color: #FFFFFF;
     /* font-family: 'Roboto', sans-serif; */
     font-family: 'Holtwood One SC', serif;
-    font-size: 1rem;
+    font-size: 0.5rem;
    
     padding: 10px 20px;
     background-color: #FF0000;
@@ -213,6 +213,77 @@ nav ul li a{
     
 
  }
+
+
+ .galeria h1{
+     text-align: center;
+     padding: 1rem;
+     color: #FF6060;
+     font-size: 2.2rem;
+    
+ }
+.galeria img{
+    width:20%
+}
+
+
+.image1{
+    width:20%;
+}
+.image1 img{
+    width: 100%
+}
+.image2{
+    width:20%;
+}
+.image2 img{
+    width: 100%
+}
+.image3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    width:20%;
+}
+.image3 a {
+    width: 100%;
+    height: 100%;
+}
+
+.image3 a img{
+    width: 100%;
+    height: 100%;
+}
+a.button{
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}
+
+.conteudoimage3{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.5rem;
+    
+    
+}
+ .kitimage1{
+     display: flex;
+     justify-content: space-around;
+     background-color: blue
+ }
+
+ .kitimage2{
+    display: flex;
+    justify-content: space-around;
+}
  
  .entreemcontato:hover {
     border: solid #CB2E2E 0;
@@ -281,7 +352,15 @@ nav ul li a{
         font-size: 1.5rem;
         
     }
-    entreemcontato{
+    .entreemcontato{
         font-family: 'Roboto', sans-serif;
+        font-size: 1rem;
+    }
+    .galeria h1{
+        font-size: 3.2rem
+    }
+
+    .conteudoimage3{
+      font-size: 1rem;
     }
 }

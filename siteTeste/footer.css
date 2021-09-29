@@ -33,6 +33,28 @@ footer{
 
 }
 
+
+.textoeicone{
+    display: flex;
+    align-items: center;
+    
+}
+
+.textoeicone img{
+    height:2em;
+    width:2em;
+}
+
+.textoeicone p{
+    margin-left: 0.5rem;
+}
+
+.textoeicone p a{
+    text-decoration: none;
+    color: #ffffff;
+    
+}
+
 .mapa{
     width: 100%;
     height: 20rem;

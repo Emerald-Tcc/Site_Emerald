@@ -50,8 +50,17 @@ function mv(){
     window.location='#quemsomos';
 }
 
+function galeria(){
+    window.location='#galeria';
+}
 
+function equipe(){
+    window.location='#equipe';
+}
 
+function contato(){
+    window.location='#contato'
+}
 
 
 

@@ -268,7 +268,7 @@ nav ul li a{
 }
 
 .imagemfundadores{
-    width: 20%;
+    width: 20rem; /*largura */
     text-align: center;
     font-size: 1rem;
     color: #16b0f1;
@@ -277,8 +277,10 @@ nav ul li a{
     
 
     width: 100%;
+    height: 100%;
     border-radius: 10px;
 }
+
 
 
 

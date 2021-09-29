@@ -44,23 +44,11 @@ c.addEventListener('mouseover', function(){
 
 
 
-function mv(){
-    /*menuSection.classList.remove('on')
-    show = !show;*/
-    window.location='#quemsomos';
+/*function mv(){
+    menuSection.classList.remove('on')
+    show = !show;
+    window.location = '#mv'
 }
-
-function galeria(){
-    window.location='#galeria';
-}
-
-function equipe(){
-    window.location='#equipe';
-}
-
-function contato(){
-    window.location='#contato'
-}
-
+*/
 
 

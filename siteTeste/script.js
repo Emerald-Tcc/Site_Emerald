@@ -70,3 +70,16 @@ $(document).ready(function(){
              }
          });
     });
+
+
+    var card = document.querySelector('#card')
+
+    card.addEventListener("click", (e) =>{
+        card.classList.toggle("flip")
+    })
+    
+    var card2 = document.querySelector('#card2')
+    
+    card2.addEventListener("click", (e) =>{
+        card2.classList.toggle("flip")
+    })    

@@ -71,8 +71,16 @@
     border-radius: 10px;
 }
 
+.alinhartxt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-
+.alinhartxt p{
+    font-size: .9rem;
+    color: rgb(77, 185, 248);
+}
 
 
 
@@ -86,5 +94,9 @@
     #card2{
         width: 20rem;
         height: 30rem;
+    }
+
+    .alinhartxt p{
+        font-size: 2rem;
     }
 }

@@ -10,7 +10,7 @@
 
 #card{
     transform-style: preserve-3d;
-    width: 14.5rem;
+    width: 10rem;
     height: 20rem;
     transition: all .5s ease;  
     border-radius: 10px;
@@ -60,7 +60,7 @@
 
 #card2{
     transform-style: preserve-3d;
-    width: 14.5rem;
+    width: 10rem;
     height: 20rem;
     transition: all .5s ease;  
     border-radius: 10px;

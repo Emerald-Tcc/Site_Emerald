@@ -22,7 +22,7 @@ footer{
 }
 
 .contatofooter{
-    text-align: center;
+    text-align: start;
     color: #ffffff;
 }
 
@@ -31,12 +31,14 @@ footer{
 
 }
 
+.contatofooter h2{
+    text-align: center;
+}
 
 .textoeicone{
     display: flex;
     align-items: center;
-    
-    justify-content: center;
+    justify-content: flex-start;
     
 }
 
@@ -87,7 +89,7 @@ footer{
     }
 
     .textoeicone{
-        justify-content: unset;
+        justify-content: flex-start;
     }
 
 }

@@ -61,7 +61,7 @@ $(document).ready(function(){
              }, 500);
             return false;
        });
-    
+
     $(window).scroll(function () {
              if ($(this).scrollTop() > 1) {
                 $('#subirTopo').fadeIn();
@@ -70,6 +70,12 @@ $(document).ready(function(){
              }
          });
     });
+
+
+    
+
+
+
 
 
     var card = document.querySelector('#card')

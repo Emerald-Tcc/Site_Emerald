@@ -22,3 +22,7 @@
 #subirTopo :hover{
     opacity:1.0;
 }
+#subirTopo img{
+    width: 1rem;
+    height: 1rem;
+}

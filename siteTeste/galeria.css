@@ -15,6 +15,7 @@ body{
 .carousel{
     width: 70%;
     margin: 0 auto;
+    margin-bottom: 5rem;
  }
  
  .carousel div{

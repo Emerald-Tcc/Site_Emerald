@@ -89,3 +89,7 @@ $(document).ready(function(){
     card2.addEventListener("click", (e) =>{
         card2.classList.toggle("flip")
     })    
+
+
+
+    

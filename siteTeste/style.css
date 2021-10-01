@@ -1,6 +1,5 @@
 html, body{
     height: 100%;
-
 }
 
 html{
@@ -13,22 +12,8 @@ body{
     font-family: 'Holtwood One SC', serif;
     border: hidden;
     text-decoration: none;
-    
+    overflow-x: hidden;
 }
-.logo{
-    height:8em;
-    width:8em;
-    
-}
-
-.icones a img{
-    height:2em;
-    width:2em;
-}
-
-
-
-
 
 .escolha{
     display:flex;

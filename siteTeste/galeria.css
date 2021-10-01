@@ -12,6 +12,10 @@ body{
     text-align: center;
     color: #ffa800;
 }
+
+.galeria h1{
+    letter-spacing: 2px;
+}
 .carousel{
     width: 70%;
     margin: 0 auto;

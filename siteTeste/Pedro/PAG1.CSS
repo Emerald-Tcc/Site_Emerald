@@ -1,0 +1,47 @@
+html, body  {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-size: 62.5%;
+}
+
+.pag1{
+    display: flex;
+    justify-content: space-between;
+    margin: 10vh auto;
+    align-items: center;
+    width: 90%;
+}
+
+.yellow{
+    width: 5vw;
+    height: 50vh;
+    background-color: #F9D189;
+    border-radius: 10px;
+}
+
+.pag1 img{
+    width: 30%;
+    padding-right: 15px;
+}
+
+.pag1 p{
+    font-size: 4rem;
+    line-height: 6rem;
+    color: #FF6060;
+    font-family: 'Holtwood One SC', serif;
+    padding-left: 15px;
+}
+
+
+@media (max-width: 600px){
+    .yellow{
+        width: 14vw;
+    }
+    .pag1 p{
+        font-size: 1.7rem;
+    }
+    .pag1 img{
+        width: 47%;
+    }
+}

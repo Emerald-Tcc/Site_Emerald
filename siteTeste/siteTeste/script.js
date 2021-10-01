@@ -58,7 +58,7 @@ $(document).ready(function(){
     $('a#subirTopo').click(function () {
              $('body,html').animate({
                scrollTop: 0
-             }, 1);
+             }, 500);
             return false;
        });
 

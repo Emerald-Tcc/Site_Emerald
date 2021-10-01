@@ -12,6 +12,7 @@ footer{
 
 .logofooter img{
     width: 100%;
+    
 }
 
 .conteudofooter{
@@ -21,29 +22,24 @@ footer{
 }
 
 .contatofooter{
-
+    text-align: start;
     color: #ffffff;
 }
 
 .contatofooter p{
     font-family: 'Roboto', sans-serif;
 
-
 }
 
-.icones{
-    display: flex;
-    justify-content: center;
-}
-.icones a img{
-    height: 2rem;
-    width: 2rem;
-    margin-left: 5px;
+.contatofooter h2{
+    text-align: center;
 }
 
 .textoeicone{
     display: flex;
     align-items: center;
+    justify-content: flex-start;
+    
 }
 
 .textoeicone img{
@@ -58,6 +54,7 @@ footer{
 .textoeicone p a{
     text-decoration: none;
     color: #ffffff;
+    
 }
 
 .mapa{
@@ -95,11 +92,4 @@ footer{
         justify-content: flex-start;
     }
 
-    .icones a img{
-        flex-direction: row;
-    }
-    .icones a img{
-        width: 2rem;
-        height: 2rem;
-    }
 }

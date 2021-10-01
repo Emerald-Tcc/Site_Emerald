@@ -1,0 +1,107 @@
+.pag2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    margin: 10vh auto;
+}
+
+.align{
+    display: flex;  
+    align-items: center;
+}
+
+.text2{
+    font-size: 4rem;
+    font-family: 'Holtwood One SC', serif;
+    color: #FF6060;
+    margin-bottom: 1vh;
+}
+
+.text3{
+    font-size: 2rem;
+    line-height: 6vh;
+}
+
+.logo2{
+    height: 80%; 
+    width: 20vw;
+}
+
+.divlog2{
+    margin: auto;
+}
+
+.bigdolls{
+    width: 90%;
+    margin-top: -10vh;
+}
+
+.words{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+    width: 65%;
+    margin: -45vh auto;
+    font-family: 'Holtwood One SC', serif;
+    color: #FF6060
+}
+.y{
+    margin-left: -8vw;
+    margin-top: -11vh;
+}
+
+@media (max-width: 930px){
+    .words{
+        margin: 0vh;
+        font-size: 2rem;
+        width: 100%;
+    }
+    .x{
+        margin-top: -0vh
+    }
+    .y{
+        margin-left: 2vw;
+        margin-top: 0vh;
+    }
+    .z{
+        margin-right: 2%;
+    }
+}
+
+@media (max-width: 795px){
+    .align{
+        flex-direction: column;
+    }
+    .divlog2{
+        margin-left: 0px;
+        display: flex;
+        justify-content: center;
+    }
+    .logo2{
+        width: 30%;
+    }
+    .words{
+        margin-top: 0vh;
+    }
+    .text2_1{
+        justify-content: center;
+    }
+}   
+
+@media(max-width: 480px){
+    .words{
+       flex-direction: row;
+       font-size: 1.2rem;
+    }
+    .bigdolls{
+        margin-top: 2%;
+        width: 100vw;
+    }
+    .y{
+        margin-left: -10;
+    }
+}

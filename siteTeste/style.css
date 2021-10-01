@@ -15,27 +15,11 @@ body{
     text-decoration: none;
     
 }
-.logo{
-    height:8em;
-    width:8em;
-    
-}
-
-.icones a img{
-    height:2em;
-    width:2em;
-}
-
-
-
-
 
 .escolha{
     display:flex;
     align-items: center;
     justify-content: space-between;
-    
-    
 }
 .yellow{
     margin-left: 40px;
@@ -323,7 +307,7 @@ body{
 
 
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 700px) {
 
 
     nav{

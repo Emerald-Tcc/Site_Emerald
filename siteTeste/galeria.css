@@ -1,7 +1,16 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Holtwood One SC', serif;
+    border: hidden;
+    text-decoration: none;
+    
+}
+
+
 .galeria {
     text-align: center;
-    color: #ffa800
-    ;
+    color: #ffa800;
 }
 .carousel{
     width: 70%;

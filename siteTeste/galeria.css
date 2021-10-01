@@ -1,0 +1,47 @@
+
+
+
+
+.galeria {
+    text-align: center;
+    color: #ffa800
+    ;
+}
+.carousel{
+    width: 70%;
+    margin: 0 auto;
+ }
+ 
+ .carousel div{
+     display: flex;
+ }
+ 
+ .carousel div img{
+     margin: auto;
+     width: 50%;
+     border-radius: 5px;
+   
+ } 
+ 
+ .slick-prev:before,
+ .slick-next:before {
+       color: black;
+ }
+
+
+
+ .linha{
+     display: flex;
+     justify-content: space-around;
+     margin-bottom: .5rem;
+
+     width: 100%;
+     
+ }
+
+
+ .linha img{
+     width: 19%;
+     border-radius: 10px;
+ }
+ 

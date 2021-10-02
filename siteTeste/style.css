@@ -1,5 +1,6 @@
 html, body{
     height: 100%;
+    overflow-x: hidden;
 }
 
 html{
@@ -12,7 +13,6 @@ body{
     font-family: 'Holtwood One SC', serif;
     border: hidden;
     text-decoration: none;
-    overflow-x: hidden;
 }
 
 .escolha{

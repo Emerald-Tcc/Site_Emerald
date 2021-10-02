@@ -34,7 +34,7 @@ nav{
 .nav-list{
     display: flex;
     position: absolute;
-    top: 7.1rem;
+    top: 7rem;
     right: 0;
     width: 50vw;
     height: 100%;

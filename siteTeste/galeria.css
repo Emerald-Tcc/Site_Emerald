@@ -10,7 +10,7 @@ body{
 
 .galeria {
     text-align: center;
-    color: #ffa800;
+    color: #FF6060;
 }
 
 .galeria h1{
@@ -30,7 +30,6 @@ body{
      margin: auto;
      width: 50%;
      border-radius: 5px;
-   
  } 
  
  .slick-prev:before,

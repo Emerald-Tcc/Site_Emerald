@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MV | Galeria</title>
     <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick-theme.css">
-    <link rel="stylesheet" type="text/css" href="galeria.css"/>
+    <link rel="stylesheet" href="galeria.css">
+    <link rel="stylesheet" href="./headergaleria.css">
     <link rel="sortcut icon" href="./images/logo.png" type="image/x-icon" />
 
 
@@ -21,25 +21,23 @@
 
 </head>
 <body> 
-    <nav>
+    <header>
+        <nav id="laemcima">
+             
 
-        
-        <a href="./index.html">
-            <img src="./images/logo.png" alt="logo" class="logo">
-        </a>
-        <ul>
-            <li><a href="#mv"> MV</a></li>
-            <li><a href="#galeria"> GALERIA</a></li>
-            <li><a href="#equipe"> EQUIPE</a></li>
-            <li><a href="#contato"> CONTATO</a></li>
-        </ul>
-        <div class="icones">
-            <a href="https://www.facebook.com/mvformaturas/" target="_blank"><img src="./images/facebook.png" alt="facebook"></a>
-            <a href="https://www.instagram.com/mvformatura/?hl=pt" target="_blank"><img src="./images/instagram.png" alt="Instagram"></a>
-            <a href="https://api.whatsapp.com/send?phone=11945274604&text=Fala%20ai%20c%20ta%20bom" target="_blank"><img src="./images/whatsapp.png" alt="facebook"></a>
+                <a href="./index.html">
+                    <img src="./images/logo.png" alt="logo" class="logo">
+                </a>
 
-        </div>
-    </nav>
+            <ul class="nav-list">
+                <li><a href="#mv" class="mvgaleria"> MV</a></li>
+                <li><a href="#galeria" class="galeriaG"> GALERIA</a></li>
+                <li><a href="#equipe" class="equipe"> EQUIPE</a></li>
+                <li><a href="#contato"> CONTATO</a></li>
+            </ul>
+            
+        </nav>
+    </header>
 
 
     <div class="galeria">
@@ -150,7 +148,11 @@
                 <p>47 - Jardim Princesa, São Paulo</p>
                 <p>CEP 02856-080</p>
 
-
+                <div class="icones">
+                    <a href="https://www.facebook.com/mvformaturas/" target="_blank"><img src="./images/facebook.png" alt="facebook"></a>
+                    <a href="https://www.instagram.com/mvformatura/?hl=pt" target="_blank"><img src="./images/instagram.png" alt="Instagram"></a>
+                    <a href="https://api.whatsapp.com/send?phone=11945274604&text=Fala%20ai%20c%20ta%20bom" target="_blank"><img src="./images/whatsapp.png" alt="facebook"></a>
+                </div>
 
                 <div class="textoeicone">
                     <img src="./images/telefone.svg" alt="Telefone">

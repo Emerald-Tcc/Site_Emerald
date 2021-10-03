@@ -1,49 +1,25 @@
-class MobileNavbar {
-    constructor(mobileMenu, navList, navLinks) {
-      this.mobileMenu = document.querySelector(mobileMenu);
-      this.navList = document.querySelector(navList);
-      this.navLinks = document.querySelectorAll(navLinks);
-      this.activeClass = "active";
-  
-      this.handleClick = this.handleClick.bind(this);
-    }
-  
-    animateLinks() {
-      this.navLinks.forEach((link, index) => {
-        link.style.animation
-          ? (link.style.animation = "")
-          : (link.style.animation = `navLinkFade 0.5s ease forwards ${
-              index / 7 + 0.3
-            }s`);
-      });
-    }
-  
-    handleClick() {
-      this.navList.classList.toggle(this.activeClass);
-      this.mobileMenu.classList.toggle(this.activeClass);
-      this.animateLinks();
-    }
-  
-    addClickEvent() {
-      this.mobileMenu.addEventListener("click", this.handleClick);
+const btnMobile = document.getElementById('btn-mobile')
 
-      this.navLinks.forEach((link) =>
-      link.addEventListener("click", this.handleClick),
-      
-    );
-    }
-  
-    init() {
-      if (this.mobileMenu) {
-        this.addClickEvent();
-      }
-      return this;
-    }
+function toggleMenu(event) {
+    if(event.type == "touchstart") event.preventDefault()
+    const nav = document.getElementById('nav')
+    nav.classList.toggle('active')
+}
+
+btnMobile.addEventListener('click', toggleMenu)
+btnMobile.addEventListener('touchstart', toggleMenu)
+
+function scrollToID(event) {
+    event.preventDefault();
+    const ID = event.currentTarget.getAttribute('href');
+    const target = document.querySelector(ID);
+    target.scrollIntoView({ behavior: "smooth" });
+    // fecha o menu
+    btnMobile.click();
   }
   
-  const mobileNavbar = new MobileNavbar(
-    ".mobile-menu",
-    ".nav-list",
-    ".nav-list li",
-  );
-  mobileNavbar.init();
+  // Seleciona links internos
+  const intLinks = document.querySelectorAll('[href^="#"]');
+  intLinks.forEach(link => {
+    link.addEventListener('click', scrollToID);
+  });

@@ -1,139 +1,117 @@
 header{
-    width: 100%;
-    background-color: rgb(255, 168, 168);
-    display: flex;
-    justify-content: center;
-}
-
-nav{
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
+
     background-color: rgb(255, 168, 168);
-    justify-content: space-around;
-    width: 90%;
+    height: 100px; 
+    padding: 1rem;
+    box-sizing: border-box;
+   
 }
 
-.logo{
-    height:8em;
-    width:8em;
-    
+.divlogo{
+    width: 8rem;
+    height: 7rem;
 }
 
-.mobile-menu{
-    cursor: pointer;
-}
-
-.mobile-menu div{
-    width: 32px;
-    height: 2px;
-    background: #fff;
-    margin: 8px;
-    transition: 0.3s;
-}
-
-.nav-list{
-    display: flex;
-    position: absolute;
-    top: 7rem;
-    right: 0;
-    width: 50vw;
+.divlogo img{
+    width: 100%;
     height: 100%;
-    background: rgb(253, 149, 149);
-    flex-direction: column;
-    align-items: center;
-    padding: 0;
+    object-fit: cover;
+}
+
+#menu{
+    display: flex;
+    gap: 2rem;
     list-style: none;
-    transform: translateX(100%);
-    transition: transform 0.3s ease-in;
 }
 
-.nav-list li{
-    opacity: 0;
-}
- 
-.nav-list.active{
-    transform: translateX(0);
-}
-
-nav ul li{
-    text-align: center;
-    width: 100%;
-    margin-top: 5rem;
-}
-
-nav ul li a{
-    display: inline-block;
-    font-size: 1rem;
-    padding: 2px 0;
-    width: 100%;
+#menu a{
+    display: block;
+    padding: .5rem;
     text-decoration: none;
-    color: #000000;
+    font-size: 1.3rem;
+    color: black;
+}
+
+#menu a:hover{
+    background: rgba(0, 0, 0, 0.138);
+    border-radius: 5px;
+}
+
+#btn-mobile{
+    display: none;
 }
 
 
+@media(max-width: 700px){
+    #menu{
+        display: block;
+        position: absolute;
+        width: 50%;
+        height: 0px;
+        top: 100px;
+        right: 0px;
+        background-color: rgba(255, 168, 168, 0.905);
+        z-index: 1000;
+        transition: .6s;
+        visibility: hidden;
+        overflow-y: hidden;
+        text-align: right;
+    }
+    
+    #nav.active #menu{
+        height: calc(60vh - 100px);
+        visibility: visible;
+        overflow-y: auto;
+        border-radius: 0px 0px 0px 30px;
+    }
 
-@media screen and (min-width: 700px) {
+    #menu a{
+        padding: 1rem 0;
+        margin: 0 1rem;
+        border-bottom: 2px solid rgba(0, 0, 0, .05);
+    }
 
-
-    nav{
+    #btn-mobile{
         display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        color: #CB2E2E;
-    }
-    
-    .mobile-menu{
-        display: none;
-    }
-
-    .nav-list{
-        display: flex;
-        position: inherit;
-        top: 0vh;
-        right: 0;
-        width: 100%;
-        height: 0;
-        background: coral;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-around;
-        padding: 0;
-        list-style: none;
-        transform: translateX(0%);
-    }
-    
-    .nav-list li{
-        opacity: 1;
-        margin-top: 0;
+        padding: .5rem 1rem;
+        font-size: 1rem;
+        border: none;
+        background: none;
+        cursor: pointer;
+        gap: .5rem;
     }
 
-    .nav-list a{
-        font-size: 1.3rem;
+    #hamburguer{
+        display: block;
+        width: 30px;
+        border-top: 3px solid;
+        color: #fff;
     }
-}
 
-
-@keyframes navLinkFade {
-    from{
-        opacity: 0;
-        transform: translateX(50px);
+    #hamburguer::after, #hamburguer::before{
+        content: '';
+        display: block;
+        width: 30px;
+        height: 3px;
+        background-color: currentColor;
+        margin-top: 5px;
+        transition: .3s;
+        position: relative;
     }
-    to{
-        opacity: 1;
-        transform: translateX(0);
+
+    #nav.active #hamburguer{
+        border-top-color: transparent;
     }
-    
-}
 
+    #nav.active #hamburguer::before{
+        transform: rotate(135deg);
+    }
 
-.mobile-menu.active .linha1 {
-    transform: rotate(-45deg) translate(-8px, 8px);
-}
-  
-.mobile-menu.active .linha2{
-    opacity: 0;
-}
-  
-.mobile-menu.active .linha3 {
-    transform: rotate(45deg) translate(-5px, -7px);
+    #nav.active #hamburguer::after{
+        transform: rotate(-135deg);
+        top: -7.1px;
+    }
 }

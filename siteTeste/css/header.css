@@ -7,7 +7,6 @@ header{
     height: 100px; 
     padding: 1rem;
     box-sizing: border-box;
-   
 }
 
 .divlogo{
@@ -44,7 +43,6 @@ header{
     display: none;
 }
 
-
 @media(max-width: 700px){
     #menu{
         display: block;
@@ -60,7 +58,7 @@ header{
         overflow-y: hidden;
         text-align: right;
     }
-    
+
     #nav.active #menu{
         height: calc(60vh - 100px);
         visibility: visible;
@@ -112,6 +110,6 @@ header{
 
     #nav.active #hamburguer::after{
         transform: rotate(-135deg);
-        top: -7.1px;
+        top: -7.5px;
     }
 }

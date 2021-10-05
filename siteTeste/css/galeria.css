@@ -3,10 +3,13 @@ body{
     padding: 0px;
     font-family: 'Holtwood One SC', serif;
     border: hidden;
-    text-decoration: none;
-    color: black;
-    
+    text-decoration: none; 
 }
+.slick-prev:before,
+ .slick-next:before {
+    color: black !important;
+ }
+
 
 
 .galeria {
@@ -34,11 +37,7 @@ body{
  } 
  
 
- .slick-prev:before,
- .slick-next:before {
-    color: red;
- }
-
+ 
 
  .linha{
      display: flex;

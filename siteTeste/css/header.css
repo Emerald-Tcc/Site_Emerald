@@ -1,7 +1,7 @@
 header{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     /* position: fixed; Deixar fixado se quiser
     z-index: 1000;
     width: 100%; */
@@ -116,19 +116,3 @@ header{
         top: -7.5px;
     }
 }
-
-
-@media screen and (min-width: 769px) {
-    header {
-       justify-content: center;
-    }
-
-    .divlogo img{
-        
-    }
-
-
-
-}
-
-

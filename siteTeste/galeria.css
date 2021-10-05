@@ -10,11 +10,7 @@ body{
 
 .galeria {
     text-align: center;
-    color: #FF6060;
-}
-
-.galeria h1{
-    letter-spacing: 2px;
+    color: #ffa800;
 }
 .carousel{
     width: 70%;
@@ -30,13 +26,14 @@ body{
      margin: auto;
      width: 50%;
      border-radius: 5px;
+   
  } 
  
-
  .slick-prev:before,
  .slick-next:before {
-    color: red;
+    color: black;
  }
+
 
 
  .linha{

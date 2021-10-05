@@ -1,8 +1,10 @@
 header{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-
+    justify-content: space-between;
+    /* position: fixed; Deixar fixado se quiser
+    z-index: 1000;
+    width: 100%; */
     background-color: rgb(255, 168, 168);
     height: 100px; 
     padding: 1rem;
@@ -43,7 +45,8 @@ header{
     display: none;
 }
 
-@media(max-width: 700px){
+@media(max-width: 769px){
+    
     #menu{
         display: block;
         position: absolute;
@@ -113,3 +116,19 @@ header{
         top: -7.5px;
     }
 }
+
+
+@media screen and (min-width: 769px) {
+    header {
+       justify-content: center;
+    }
+
+    .divlogo img{
+        
+    }
+
+
+
+}
+
+

@@ -17,6 +17,10 @@ body{
     scroll-behavior: smooth;
 }
 
+html, body{
+    height: 100%;
+}
+
 .escolha{
     display:flex;
     align-items: center;
@@ -39,7 +43,7 @@ body{
 
 .escolha p{
     color: #FF6060;
-    font-size: 175%;
+    font-size: 1rem;
     padding-left: 15px;
 }
 
@@ -332,16 +336,11 @@ body{
     }
 
     .escolha p{
-        font-size: 275%;
+        font-size: 2.8rem;
     }
 
     .yellow{
         height: 35vh;
-    }
-
-
-    .quemsomos h1{
-        font-size: 2rem;
     }
 
     .conteudoquemsomos p{
@@ -387,5 +386,25 @@ body{
     .pessoas{
         display: flex;
         flex-direction: row ;
+    }
+
+    .quemsomos h1{
+        font-size: 3rem;
+    }
+
+    .oquenosoferecemos h1{
+        font-size: 3rem;
+    }
+    
+    .galeria h1{
+        font-size: 3rem;
+    }
+
+    .fundadores h1{
+        font-size: 3rem;
+    }
+
+    .depoimentos h1{
+        font-size: 3rem;
     }
 }

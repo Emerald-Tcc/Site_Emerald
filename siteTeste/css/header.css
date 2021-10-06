@@ -10,19 +10,15 @@ header{
     padding: 1rem;
     box-sizing: border-box;
 }
-.icones{
-    display: none;
-}
 
 .divlogo{
-    width: 8rem;
+    width: 7rem;
     height: 7rem;
 }
 
 .divlogo img{
     width: 100%;
     height: 100%;
-    object-fit: cover;
 }
 
 #menu{
@@ -49,6 +45,9 @@ header{
 }
 
 @media(max-width: 769px){
+    header{
+        justify-content: space-between;
+    }
     
     #menu{
         display: block;

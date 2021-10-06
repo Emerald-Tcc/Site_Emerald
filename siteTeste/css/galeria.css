@@ -53,4 +53,46 @@ body{
      width: 19%;
      border-radius: 10px;
  }
+
+ .informacoes{
+    font-size:1rem;
+    margin-left: .5rem;
+
+ }
+
+ .informacoes h2{
+    color: #FF6060;
+ }
+ .imageminformacoes{
+     display: none;
+ }
+
+ @media screen and (min-width: 769px) {
+     .informacoes{
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+     }
+
+     .imageminformacoes{
+         width:30%;
+         display: unset;
+         margin-right: 5rem;
+         
+         
+     }
+
+     .imageminformacoes img{
+         
+        width:100%;
+        transform: scaleX(-1);
+        
+        
+
+
+     }
+
+ }
+
+
  

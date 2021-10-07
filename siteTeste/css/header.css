@@ -5,7 +5,7 @@ header{
     /* position: fixed; Deixar fixado se quiser
     z-index: 1000;
     width: 100%; */
-    background-color: rgb(255, 168, 168);
+    background-color: rgb(255, 151, 151);
     height: 100px; 
     padding: 1rem;
     box-sizing: border-box;
@@ -36,7 +36,7 @@ header{
 }
 
 #menu a:hover{
-    background: rgba(0, 0, 0, 0.138);
+    background: rgba(0, 0, 0, 0.061);
     border-radius: 5px;
 }
 

@@ -1,6 +1,6 @@
-/* [data-anime]{
+[data-anime]{
     opacity: 0;
-    transition: .3s;
+    transition: .5s;
 }
 
 [data-anime='left']{
@@ -14,4 +14,4 @@
 [data-anime].animate{
     opacity: 1;
     transform: translate3d(0, 0, 0);
-} */
+}

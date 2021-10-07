@@ -1,14 +1,14 @@
 x = window.screen.width;
 y = window.screen.height;
 if(x > 700){
-    var target1 = document.querySelectorAll('.ha')
+    const target1 = document.querySelectorAll('.ha')
 
-    var efeito1 = 0;
+    let efeito1 = false;
     
     function anime(){
         const windowTop = window.scrollY;
         target1.forEach(function(element){
-            if((windowTop) > element.offsetTop + (window.innerHeight * 1.5)  && efeito1 == 0){
+            if((windowTop) > element.offsetTop + (window.innerHeight * 1.5)  && efeito1 == false){
     
                 let numero = document.querySelector('#a')
                 let min = 1
@@ -18,7 +18,7 @@ if(x > 700){
                     setTimeout(function(nr){
                         numero.innerHTML = nr;
                     }, i * 3000 / max, i);
-                } efeito1 = 1;
+                } efeito1 = true;
             }
             console.log(element.offsetTop);
         })
@@ -34,12 +34,12 @@ y = window.screen.height;
 if(x < 700){
     var target1 = document.querySelectorAll('.ha')
 
-    var efeito1 = 0;
+    var efeito1 = false;
     
     function anime(){
         const windowTop = window.scrollY;
         target1.forEach(function(element){
-            if((windowTop) > element.offsetTop + (window.innerHeight * 0.6)  && efeito1 == 0){
+            if((windowTop) > element.offsetTop + (window.innerHeight * 0.6)  && efeito1 == false){
     
                 let numero = document.querySelector('#a')
                 let min = 1
@@ -49,7 +49,7 @@ if(x < 700){
                     setTimeout(function(nr){
                         numero.innerHTML = nr;
                     }, i * 3000 / max, i);
-                } efeito1 = 1;
+                } efeito1 = true;
             }
             console.log(element.offsetTop);
         })
@@ -68,12 +68,12 @@ if(x > 700){
 
 var target2 = document.querySelectorAll('.he')
 
-var efeito2 = 0;
+var efeito2 = false;
 
 function anime2(){
     const windowTop = window.scrollY;
     target2.forEach(function(element){
-        if((windowTop) > element.offsetTop + (window.innerHeight * 1.5)  && efeito2 == 0){
+        if((windowTop) > element.offsetTop + (window.innerHeight * 1.5)  && efeito2 == false){
 
             let numero = document.querySelector('#b')
             let min = 1
@@ -83,7 +83,7 @@ function anime2(){
                 setTimeout(function(nr){
                     numero.innerHTML = nr;
                 }, i * 4000 / max, i);
-            } efeito2 = 1;
+            } efeito2 = true;
         }
         console.log(element.offsetTop);
     })
@@ -100,12 +100,12 @@ if(x < 700){
 
 var target2 = document.querySelectorAll('.he')
 
-var efeito2 = 0;
+var efeito2 = false;
 
 function anime2(){
     const windowTop = window.scrollY;
     target2.forEach(function(element){
-        if((windowTop) > element.offsetTop + (window.innerHeight * 0.6)  && efeito2 == 0){
+        if((windowTop) > element.offsetTop + (window.innerHeight * 0.6)  && efeito2 == false){
 
             let numero = document.querySelector('#b')
             let min = 1
@@ -115,7 +115,7 @@ function anime2(){
                 setTimeout(function(nr){
                     numero.innerHTML = nr;
                 }, i * 4000 / max, i);
-            } efeito2 = 1;
+            } efeito2 = true;
         }
         console.log(element.offsetTop);
     })
@@ -133,12 +133,12 @@ y = window.screen.height;
 if(x > 700){
 var target3 = document.querySelectorAll('.hi')
 
-var efeito3 = 0;
+var efeito3 = false;
 
 function anime3(){
     const windowTop = window.scrollY;
     target3.forEach(function(element){
-        if((windowTop) > element.offsetTop + (window.innerHeight * 1.5)  && efeito3 == 0){
+        if((windowTop) > element.offsetTop + (window.innerHeight * 1.5)  && efeito3 == false){
 
             let numero = document.querySelector('#c')
             let min = 0
@@ -148,7 +148,7 @@ function anime3(){
                 setTimeout(function(nr){
                     numero.innerHTML = nr;
                 }, i * 2000 / max, i);
-            } efeito3 = 1;
+            } efeito3 = true;
         }
         console.log(element.offsetTop);
     })
@@ -164,12 +164,12 @@ y = window.screen.height;
 if(x < 700){
 var target3 = document.querySelectorAll('.hi')
 
-var efeito3 = 0;
+var efeito3 = false;
         
 function anime3(){
     const windowTop = window.scrollY;
         target3.forEach(function(element){
-        if((windowTop) > element.offsetTop + (window.innerHeight * 0.6)  && efeito3 == 0){
+        if((windowTop) > element.offsetTop + (window.innerHeight * 0.6)  && efeito3 == false){
         
             let numero = document.querySelector('#c')
             let min = 0
@@ -179,7 +179,7 @@ function anime3(){
                 setTimeout(function(nr){
                     numero.innerHTML = nr;
                 }, i * 2000 / max, i);
-            } efeito3 = 1;
+            } efeito3 = true;
         }
         console.log(element.offsetTop);
     })

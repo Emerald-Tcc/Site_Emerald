@@ -63,6 +63,12 @@ body{
  .informacoes h2{
     color: #FF6060;
  }
+
+ .informacoes p{
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+ }
+
  .imageminformacoes{
      display: none;
  }
@@ -74,22 +80,19 @@ body{
          align-items: center;
      }
 
+     .informacoes p{
+        font-size: 1.5rem;
+     }
+
      .imageminformacoes{
          width:30%;
          display: unset;
-         margin-right: 5rem;
-         
-         
+         margin-right: 5rem;   
      }
 
      .imageminformacoes img{
-         
         width:100%;
         transform: scaleX(-1);
-        
-        
-
-
      }
 
  }

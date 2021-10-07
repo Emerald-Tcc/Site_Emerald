@@ -48,6 +48,10 @@ html, body{
     padding-left: 15px;
 }
 
+.quemsomos{
+    overflow: hidden;
+}
+
 .quemsomos h1{
     text-align: center;
     color: #FF6060;
@@ -57,7 +61,6 @@ html, body{
 .conteudoquemsomos{
     display:flex;
     align-items: center;
-    overflow: hidden;
 }
 
 .conteudoquemsomos img{
@@ -143,6 +146,10 @@ html, body{
     justify-content: center;
 }
 
+.oquenosoferecemos{
+    overflow: hidden;
+}
+
 .oquenosoferecemos h1{
     text-align: center;
     color: #FF6060;
@@ -152,12 +159,10 @@ html, body{
 
 .conteudooquenosoferecemos{
     display: flex;
-    overflow: hidden;
 }
+
 .conteudooquenosoferecemos img{
     width: 50%;
-   
-    
 }
 
 .conteudooquenosoferecemos p{
@@ -255,6 +260,9 @@ html, body{
     border-radius: 10px;
 }
 */
+.depoimentos{
+    overflow: hidden;
+}
 
 .depoimentos h1{
     text-align: center;

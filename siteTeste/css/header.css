@@ -1,7 +1,7 @@
 header{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     /* position: fixed; Deixar fixado se quiser
     z-index: 1000;
     width: 100%; */
@@ -41,6 +41,10 @@ header{
 }
 
 #btn-mobile{
+    display: none;
+}
+
+.iconesheader{
     display: none;
 }
 
@@ -117,4 +121,20 @@ header{
         transform: rotate(-135deg);
         top: -7.5px;
     }
+}
+
+
+@media screen and (min-width: 769px) {
+    .iconesheader{
+        display: flex;
+        gap: 5px;
+    }
+    
+    .iconesheader a img{
+        
+        height:2em;
+        width:2em;
+    }
+
+
 }

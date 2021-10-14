@@ -1,6 +1,6 @@
 x = window.screen.width;
 y = window.screen.height;
-if(x > 700){
+if(x > 900){
     const target1 = document.querySelectorAll('.ha')
 
     let efeito1 = false;
@@ -31,7 +31,7 @@ if(x > 700){
 
 x = window.screen.width;
 y = window.screen.height;
-if(x < 700){
+if(x < 900){
     var target1 = document.querySelectorAll('.ha')
 
     var efeito1 = false;
@@ -39,7 +39,7 @@ if(x < 700){
     function anime(){
         const windowTop = window.scrollY;
         target1.forEach(function(element){
-            if((windowTop) > element.offsetTop + (window.innerHeight * 0.6)  && efeito1 == false){
+            if((windowTop) > element.offsetTop + (window.innerHeight * 0.2)  && efeito1 == false){
     
                 let numero = document.querySelector('#a')
                 let min = 1
@@ -64,7 +64,7 @@ if(x < 700){
 
 x = window.screen.width;
 y = window.screen.height;
-if(x > 700){
+if(x > 900){
 
 var target2 = document.querySelectorAll('.he')
 
@@ -96,7 +96,7 @@ window.addEventListener('scroll', function(){
 
 x = window.screen.width;
 y = window.screen.height;
-if(x < 700){
+if(x < 900){
 
 var target2 = document.querySelectorAll('.he')
 
@@ -105,7 +105,7 @@ var efeito2 = false;
 function anime2(){
     const windowTop = window.scrollY;
     target2.forEach(function(element){
-        if((windowTop) > element.offsetTop + (window.innerHeight * 0.6)  && efeito2 == false){
+        if((windowTop) > element.offsetTop + (window.innerHeight * 0.2)  && efeito2 == false){
 
             let numero = document.querySelector('#b')
             let min = 1
@@ -130,7 +130,7 @@ window.addEventListener('scroll', function(){
 
 x = window.screen.width;
 y = window.screen.height;
-if(x > 700){
+if(x > 900){
 var target3 = document.querySelectorAll('.hi')
 
 var efeito3 = false;
@@ -161,7 +161,7 @@ window.addEventListener('scroll', function(){
 
 x = window.screen.width;
 y = window.screen.height;
-if(x < 700){
+if(x < 900){
 var target3 = document.querySelectorAll('.hi')
 
 var efeito3 = false;
@@ -169,7 +169,7 @@ var efeito3 = false;
 function anime3(){
     const windowTop = window.scrollY;
         target3.forEach(function(element){
-        if((windowTop) > element.offsetTop + (window.innerHeight * 0.6)  && efeito3 == false){
+        if((windowTop) > element.offsetTop + (window.innerHeight * 0.2)  && efeito3 == false){
         
             let numero = document.querySelector('#c')
             let min = 0

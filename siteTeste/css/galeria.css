@@ -19,7 +19,12 @@ body{
 
 .galeria h1{
     letter-spacing: 2px;
+    font-size: 2.5rem;
 }
+.galeria p{
+    font-size: 1.5rem;
+}
+
 .carousel{
     width: 70%;
     margin: 0 auto;
@@ -50,7 +55,7 @@ body{
 
 
  .linha img{
-     width: 19%;
+     width: 90%;
      border-radius: 10px;
  }
 
@@ -72,6 +77,10 @@ body{
  .imageminformacoes{
      display: none;
  }
+
+.img14brigadeiro{
+    height: 84%;
+}
 
  @media screen and (min-width: 769px) {
      .informacoes{

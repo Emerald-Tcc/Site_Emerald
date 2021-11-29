@@ -1,14 +1,15 @@
-body, ul{
+body,
+ul {
     height: 100%;
     padding: 0;
     margin: 0;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-body{
+body {
     margin: 0px;
     padding: 0px;
     font-family: 'Holtwood One SC', serif;
@@ -18,79 +19,78 @@ body{
     overflow-x: hidden;
 }
 
-html, body{
+html,
+body {
     height: 100%;
 }
 
-.escolha{
-    display:flex;
+.escolha {
+    display: flex;
     align-items: center;
     justify-content: space-between;
-    
-    
 }
-.yellow{
+
+.yellow {
     margin-left: 40px;
     width: 5vh;
     height: 20vh;
-    background-color: #F9D189;
+    background-color: #000000;
+    /* #F9D189; */
     align-items: center;
     border-radius: 10px;
 }
-.escolha img{
+
+.escolha img {
     width: 30%;
     padding-right: 15px;
 }
 
-.escolha p{
-    color: #FF6060;
+.escolha p {
+    color: black;
+    /* #FF6060; */
     font-size: 1rem;
     padding-left: 15px;
 }
 
-.quemsomos{
+.quemsomos {
     overflow: hidden;
 }
 
-.quemsomos h1{
+.quemsomos h1 {
     text-align: center;
-    color: #FF6060;
+    color: #000000;
     font-size: 2.2rem;
 }
 
-.conteudoquemsomos{
-    display:flex;
+.conteudoquemsomos {
+    display: flex;
     align-items: center;
 }
 
-.conteudoquemsomos img{
-    height:10em;
-    width:10em;
-
+.conteudoquemsomos img {
+    height: 10em;
+    width: 10em;
 }
 
-.conteudoquemsomos p{
+.conteudoquemsomos p {
     font-size: 0.85rem;
     font-family: 'Roboto', sans-serif;
     margin-left: 1rem;
 }
 
-.bannerdedados{
-    
-    width:100%;
+.bannerdedados {
+    width: 100%;
     position: relative;
     display: flex;
 }
-.bannerdedados img{
-    
+
+.bannerdedados img {
     width: 100%;
-    
 }
 
-
-
-.item1{
-    width: 20%; /* 15% tela grande */
+.item1 {
+    width: 20%;
+    /* 15% tela grande */
     background-color: #f8f6ef;
     position: absolute;
     text-align: center;
@@ -102,9 +102,9 @@ html, body{
     /* font-size: 1rem; Tela grande */
 }
 
-
-.item2{
-    width: 20%; /* 15% tela grande */
+.item2 {
+    width: 20%;
+    /* 15% tela grande */
     background-color: #f8f6ef;
     position: absolute;
     text-align: center;
@@ -114,11 +114,11 @@ html, body{
     box-shadow: 1px 5px 5px black;
     font-size: 0.5rem;
     /* font-size: 1rem; Tela grande */
-    
 }
 
-.item3{
-    width: 20%; /* 15% tela grande */
+.item3 {
+    width: 20%;
+    /* 15% tela grande */
     background-color: #f8f6ef;
     position: absolute;
     text-align: center;
@@ -128,55 +128,54 @@ html, body{
     box-shadow: 1px 5px 5px black;
     font-size: 0.5rem;
     /* font-size: 1rem; Tela grande */
-    
 }
 
-.ha{
+.ha {
     display: flex;
     justify-content: center;
 }
 
-.he{
+.he {
     display: flex;
     justify-content: center;
 }
 
-.hi{
+.hi {
     display: flex;
     justify-content: center;
 }
 
-.oquenosoferecemos{
+.oquenosoferecemos {
     overflow: hidden;
 }
 
-.oquenosoferecemos h1{
+.oquenosoferecemos h1 {
     text-align: center;
-    color: #FF6060;
+    color: #000000;
     font-size: 2rem;
 }
 
-
-.conteudooquenosoferecemos{
+.conteudooquenosoferecemos {
     display: flex;
 }
 
-.conteudooquenosoferecemos img{
+.conteudooquenosoferecemos img {
     width: 50%;
 }
 
-.conteudooquenosoferecemos p{
+.conteudooquenosoferecemos p {
     display: flex;
     text-align: center;
     align-items: center;
     font-size: 0.85rem;
     font-family: 'Roboto', sans-serif;
-  
 }
-.botaoentreemcontato{
+
+.botaoentreemcontato {
     display: flex;
     justify-content: center;
 }
+
 .entreemcontato {
     -webkit-border-radius: 7px;
     -moz-border-radius: 7px;
@@ -185,18 +184,15 @@ html, body{
     /* font-family: 'Roboto', sans-serif; */
     font-family: 'Holtwood One SC', serif;
     font-size: 0.5rem;
-   
     padding: 10px 20px;
     background-color: #FF0000;
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
     text-align: center;
-    
+}
 
- }
-
- .entreemcontato:hover {
+.entreemcontato:hover {
     border: solid #CB2E2E 0;
     background: #FF0000;
     background-image: -webkit-linear-gradient(top, #FF0000, #CB2E2E);
@@ -208,11 +204,10 @@ html, body{
     -moz-border-radius: 7px;
     border-radius: 7px;
     text-decoration: none;
- }
+}
 
 
-
- /*.fundadores{
+/*.fundadores{
     margin-top: 5rem;
     margin-bottom: 8rem
  }
@@ -260,153 +255,125 @@ html, body{
     border-radius: 10px;
 }
 */
-.depoimentos{
+
+.depoimentos {
     overflow: hidden;
 }
 
-.depoimentos h1{
+.depoimentos h1 {
     text-align: center;
-    color: #FF6060;
-
+    color: #000000;
     font-size: 2rem;
-
     margin-bottom: 3rem;
 }
 
-
-.pessoas{
+.pessoas {
     display: flex;
     flex-direction: column;
     margin-left: 10px;
 }
 
-.pessoas + .pessoas{
+.pessoas+.pessoas {
     margin-bottom: 3rem;
 }
 
-.pessoa{
+.pessoa {
     display: flex;
-    width:100%
-    
-    
+    width: 100%
 }
 
-.imagempessoa img{
+.imagempessoa img {
     width: 5rem;
     height: 5rem;
-    border-radius:50%;
+    border-radius: 50%;
 }
 
-.conteudopessoa{
+.conteudopessoa {
     margin-left: 10px;
-    width:100%; 
+    width: 100%;
     word-wrap: break-word;
 }
 
-.conteudopessoa h3{
+.conteudopessoa h3 {
     font-family: 'Roboto', sans-serif;
-    color: #FF6060;
+    color: #000000;
 }
 
-.conteudopessoa p{
-     font-family: 'Roboto', sans-serif;
-    
+.conteudopessoa p {
+    font-family: 'Roboto', sans-serif;
 }
 
-.aqui{
+.aqui {
     color: red;
 }
 
 @media screen and (min-width: 769px) {
-    body{
+    body {
         overflow-x: hidden;
     }
-
-    nav{
+    nav {
         flex-direction: row;
         justify-content: space-around;
         color: #CB2E2E;
     }
-
-    nav ul{
+    nav ul {
         flex-direction: row;
         width: 70%;
     }
-    .escolha img{
+    .escolha img {
         width: 25%;
-       
     }
-
-    .escolha p{
+    .escolha p {
         font-size: 2.8rem;
     }
-
-    .yellow{
+    .yellow {
         height: 35vh;
     }
-
-    .conteudoquemsomos p{
+    .conteudoquemsomos p {
         font-size: 1.2rem;
         margin-left: 10rem;
         width: 700px;
     }
-
-    .conteudoquemsomos img{
-        height:20em;
-        width:20em;
-    
+    .conteudoquemsomos img {
+        height: 20em;
+        width: 20em;
     }
-    
-
-    .item1, .item2, .item3{
+    .item1,
+    .item2,
+    .item3 {
         font-size: 1rem;
         width: 15%;
     }
-
-    .conteudooquenosoferecemos p{
+    .conteudooquenosoferecemos p {
         font-size: 1.5rem;
-        
     }
-    
-    .entreemcontato{
+    .entreemcontato {
         font-family: 'Roboto', sans-serif;
         font-size: 1rem;
     }
-    
-
-    .imagemfundadores{
+    .imagemfundadores {
         font-size: 1.5rem;
     }
-
-
-    .imagemfundadores img{
+    .imagemfundadores img {
         width: 100%;
-
     }
-
-
-    .pessoas{
+    .pessoas {
         display: flex;
-        flex-direction: row ;
+        flex-direction: row;
     }
-
-    .quemsomos h1{
+    .quemsomos h1 {
         font-size: 3rem;
     }
-
-    .oquenosoferecemos h1{
+    .oquenosoferecemos h1 {
         font-size: 3rem;
     }
-    
-    .galeria h1{
+    .galeria h1 {
         font-size: 3rem;
     }
-
-    .fundadores h1{
+    .fundadores h1 {
         font-size: 3rem;
     }
-
-    .depoimentos h1{
+    .depoimentos h1 {
         font-size: 3rem;
     }
 }

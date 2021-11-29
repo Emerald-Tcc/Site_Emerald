@@ -1,9 +1,8 @@
 #subirTopo {
-    text-decoration:none;
-    background:#FF6060;
+    text-decoration: none;
+    background: #000000;
     bottom: 10px;
     right: 10px;
-    color:rgb (0, 0, 0);
     text-align: center;
     cursor: pointer;
     padding: 10px;
@@ -18,11 +17,13 @@
     color: #ffffff;
     border-radius: 20px;
 }
-    
-#subirTopo :hover{
-    opacity:1.0;
+
+#subirTopo :hover {
+    opacity: 1.0;
 }
-#subirTopo img{
+
+#subirTopo img {
     width: 1rem;
     height: 1rem;
+    filter: invert(100%);
 }

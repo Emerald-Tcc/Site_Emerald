@@ -1,6 +1,6 @@
-var target5 = document.querySelectorAll('[data-anime]')
+const target5 = document.querySelectorAll('[data-anime]')
 
-var animationClass5 = 'animate'
+const animationClass5 = 'animate'
 
 function anime5(){
     const windowTop = window.scrollY;

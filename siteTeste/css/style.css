@@ -312,16 +312,14 @@ body {
 .aqui {
     color: red;
 }
-/* 
+
 .aaa::after{
     content: "Compartilhe conosco esse momento incrível!";
     animation-name: ai;
-    animation-duration: 15s;
+    animation-duration: 13s;
     animation-iteration-count: infinite;
-    transition-duration: 10s;
-    transition-delay: 2s;
-    transition: ease-in-out;
-} */
+    transition: ease;
+}
 
 @media screen and (min-width: 769px) {
     body {
@@ -399,20 +397,20 @@ body {
 }
 
 
-/* @keyframes ai{
+@keyframes ai{
     0%{
         content: "Compartilhe conosco esse momento incrível!";
     }
-    25%{
-        content: "Eventos, formaturas, albuns e muito mais!";
+    40%{
+        content: "Eventos, formaturas, álbuns e muito mais!";
     }
     50%{
-        content: "É o José kkkkkkkkkk";
+        content: "MV Formatura, sempre ao seu dispor!";
     }
     75%{
-        content: "MV Formatura yeaahhh que legal";
+        content: "Conte com a gente para o seu evento!";
     }
     100%{
         content: "Compartilhe conosco esse momento incrível!";
     }
-} */
+} 

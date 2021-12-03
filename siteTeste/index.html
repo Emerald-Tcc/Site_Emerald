@@ -52,7 +52,7 @@
 
     <div class="escolha">
         <div class="yellow"></div>
-        <p class="aaa">Compartilhe conosco esse momento incrível!</p>
+        <p class="aaa"></p>
         <img src="./images/dolls.png" alt="Dolls" class="menininhas">
     </div>
 
@@ -252,13 +252,13 @@
         <h1>FUNDADORES</h1>
         <div class="imagensf">
             <div class="alinhartxt" data-anime="left">
-                <div id="card" class="flip">
-                    <div class="front" id="face">
+                <div id="card" class="flip" onclick="text()">
+                    <div class="front" id="face" >
                         <img src="./images/marcio.png" alt="fundadores">
                     </div>
 
-                    <div class="back" id="face">
-                        Boa tarde!<br> Me chamo Márcio Prado e sou fundador da MV Formaturas!
+                    <div class="back" id="face" >
+                        <p id="textback"></p>
                     </div>
 
 
@@ -267,13 +267,13 @@
             </div>
 
             <div class="alinhartxt" data-anime="right">
-                <div id="card2" class="flip">
+                <div id="card2" class="flip" onclick="text2()">
                     <div class="front" id="face">
                         <img src="./images/vania2.jpeg" alt="fundadores">
                     </div>
 
                     <div class="back" id="face">
-                        Boa tarde!<br> Me chamo Vânia Martins e sou fundadora da MV Formaturas!
+                        <p id="textback2"></p>
                     </div>
                 </div>
                 <p>Vânia Martins</p>
@@ -418,6 +418,7 @@
     <script src="./js/botaosubir.js"></script>
     <script src="./js/animaçãoelementos.js"></script>
     <script src="./js/numerosanimados.js"></script>
+    <script src="./js/fundadorestext.js"></script>
 </body>
 
 </html>

@@ -28,6 +28,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-image: url("../images/festa2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .yellow {
@@ -43,13 +47,14 @@ body {
 .escolha img {
     width: 30%;
     padding-right: 15px;
+    opacity: 0;
 }
 
 .escolha p {
-    color: black;
-    /* #FF6060; */
+    color: #000000;
     font-size: 1rem;
     padding-left: 15px;
+    /* text-shadow: 10px 3px 12px black; */
 }
 
 .quemsomos {
@@ -58,13 +63,14 @@ body {
 
 .quemsomos h1 {
     text-align: center;
-    color: #000000;
+    color: black;
     font-size: 2.2rem;
 }
 
 .conteudoquemsomos {
     display: flex;
     align-items: center;
+    justify-content: space-around;
 }
 
 .conteudoquemsomos img {
@@ -307,6 +313,14 @@ body {
     color: red;
 }
 
+.aaa::after{
+    content: "Compartilhe conosco esse momento incrível!";
+    animation-name: ai;
+    animation-duration: 13s;
+    animation-iteration-count: infinite;
+    transition: ease;
+}
+
 @media screen and (min-width: 769px) {
     body {
         overflow-x: hidden;
@@ -320,6 +334,10 @@ body {
         flex-direction: row;
         width: 70%;
     }
+    .escolha {
+        background-image: url("../images/festa1.jpg");
+        height: 90%;
+    }
     .escolha img {
         width: 25%;
     }
@@ -330,7 +348,7 @@ body {
         height: 35vh;
     }
     .conteudoquemsomos p {
-        font-size: 1.2rem;
+        font-size: 1.7rem;
         margin-left: 10rem;
         width: 700px;
     }
@@ -345,7 +363,7 @@ body {
         width: 15%;
     }
     .conteudooquenosoferecemos p {
-        font-size: 1.5rem;
+        font-size: 1.7rem;
     }
     .entreemcontato {
         font-family: 'Roboto', sans-serif;
@@ -377,3 +395,22 @@ body {
         font-size: 3rem;
     }
 }
+
+
+@keyframes ai{
+    0%{
+        content: "Compartilhe conosco esse momento incrível!";
+    }
+    40%{
+        content: "Eventos, formaturas, álbuns e muito mais!";
+    }
+    50%{
+        content: "MV Formatura, sempre ao seu dispor!";
+    }
+    75%{
+        content: "Conte com a gente para o seu evento!";
+    }
+    100%{
+        content: "Compartilhe conosco esse momento incrível!";
+    }
+} 

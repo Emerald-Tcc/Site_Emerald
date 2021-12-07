@@ -52,9 +52,8 @@
 
     <div class="escolha">
         <div class="yellow"></div>
-        <p>Compartilhe conosco esse momento incrível!</p>
-        <img src="./images/dolls.png" alt="Dolls">
-
+        <p class="aaa"></p>
+        <img src="./images/dolls.png" alt="Dolls" class="menininhas">
     </div>
 
     <div class="quemsomos" id="mv">
@@ -124,7 +123,7 @@
                         <img src="./images/mvimage1.jpg" alt="Imagem1" class="img-galeria">
                         <div class="conteudoimages">
 
-                            <h3>Brigadeiro Gavião Peixoto</h3>
+                            <h3>E.E. Brigadeiro Gavião Peixoto</h3>
                             <p>18/01/2018</p>
                             <img src="./images/mais.png" alt="+">
 
@@ -139,13 +138,13 @@
             </div>
 
             <div class="imagem">
-                <a href="./galeria.html" class="button">
+                <a href="./galeriaCarlosBorba.html" class="button">
 
                     <div class="alinhartexto">
                         <img src="./images/mvimage2.jpg" alt="Imagem1" class="img-galeria">
                         <div class="conteudoimages">
 
-                            <h3>Streat</h3>
+                            <h3>E.E. Carlos Borba</h3>
                             <p>20/04/2020</p>
                             <img src="./images/mais.png" alt="+">
 
@@ -166,7 +165,7 @@
                         <img src="./images/mvimage3.jpg" alt="Imagem1" class="img-galeria">
                         <div class="conteudoimages">
 
-                            <h3>Arnaldo Barreto</h3>
+                            <h3>E.E. Arnaldo Barreto</h3>
                             <p>21/06/2019</p>
                             <img src="./images/mais.png" alt="+">
 
@@ -205,13 +204,13 @@
 
 
             <div class="imagem">
-                <a href="./galeria.html" class="button">
+                <a href="./galeriaMorroDoce.html" class="button">
 
                     <div class="alinhartexto">
                         <img src="./images/mvimage5.jpg" alt="Imagem1" class="img-galeria">
                         <div class="conteudoimages">
 
-                            <h3>Herminio</h3>
+                            <h3>E.E. Morro Doce</h3>
                             <p>16/01/2020</p>
                             <img src="./images/mais.png" alt="+">
 
@@ -226,13 +225,13 @@
             </div>
 
             <div class="imagem">
-                <a href="./galeria.html" class="button">
+                <a href="./galeriaAnilzaPioli.html" class="button">
 
                     <div class="alinhartexto">
                         <img src="./images/mvimage6.jpg" alt="Imagem1" class="img-galeria">
                         <div class="conteudoimages">
 
-                            <h3> Alice</h3>
+                            <h3>E.E. Anilza Pioli</h3>
                             <p>24/01/2020</p>
                             <img src="./images/mais.png" alt="+">
 
@@ -253,13 +252,13 @@
         <h1>FUNDADORES</h1>
         <div class="imagensf">
             <div class="alinhartxt" data-anime="left">
-                <div id="card" class="flip">
-                    <div class="front" id="face">
+                <div id="card" class="flip" onclick="text()">
+                    <div class="front" id="face" >
                         <img src="./images/marcio.png" alt="fundadores">
                     </div>
 
-                    <div class="back" id="face">
-                        Boa tarde!<br> Me chamo Márcio Prado e sou fundador da MV Formaturas!
+                    <div class="back" id="face" >
+                        <p id="textback"></p>
                     </div>
 
 
@@ -268,13 +267,13 @@
             </div>
 
             <div class="alinhartxt" data-anime="right">
-                <div id="card2" class="flip">
+                <div id="card2" class="flip" onclick="text2()">
                     <div class="front" id="face">
                         <img src="./images/vania2.jpeg" alt="fundadores">
                     </div>
 
                     <div class="back" id="face">
-                        Boa tarde!<br> Me chamo Vânia Martins e sou fundadora da MV Formaturas!
+                        <p id="textback2"></p>
                     </div>
                 </div>
                 <p>Vânia Martins</p>
@@ -419,6 +418,7 @@
     <script src="./js/botaosubir.js"></script>
     <script src="./js/animaçãoelementos.js"></script>
     <script src="./js/numerosanimados.js"></script>
+    <script src="./js/fundadorestext.js"></script>
 </body>
 
 </html>
